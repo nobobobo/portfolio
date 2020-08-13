@@ -1,0 +1,21 @@
+#site-header {
+    background-color: white;
+}
+
+#site-header-mobile {
+    display: none;
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#brand-title {
+    font-weight: 600;
+    color: #50514F;
+}
+
+#brand-sub {
+    color: #2f4550;
+    opacity: 75%;
+}

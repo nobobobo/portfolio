@@ -1,0 +1,43 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: papayawhip;
+}
+
+#home {
+    
+    background: linear-gradient(346deg, #B1740F, #ffd07b, #fdb833,#296eb4, #1789fc);
+    background-size: 1000%, 1000%;
+    animation: background 30s ease infinite;
+}
+
+@-moz-keyframes background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

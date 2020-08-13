@@ -1,15 +1,32 @@
-import React from 'react';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-import Work from './components/Work/Work';
-import Profile from './components/Profile/Profile';
-import Contact from './components/Contact/Contact';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Home from './components/Home';
+import Work from './components/Work';
+import Profile from './components/Profile';
+import Contact from './components/Contact';
 
+function getWindowSize() {
+  const { innerWidth, innerHeight } = window;
+  return {
+    width: innerWidth,
+    height: innerHeight
+  };
+}
 function App() {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    const resizeHandler = () => {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', resizeHandler);
+    return () => window.removeEventListener('resize', resizeHandler);
+  }, [])
+
   return (
     <div id="main">
-      <Header />
+      <Header {...windowSize} />
       <Home />
       <Work />
       <Profile />
