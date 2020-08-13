@@ -2,6 +2,7 @@ import React from 'react';
 import "./style.css";
 
 function Header({width}) {
+    console.log(width);
     return (<div id="header"> 
     {width >= 601 ? <div id="site-header">
         <div className="container">

@@ -1,9 +1,5 @@
-#site-header {
+#header {
     background-color: white;
-}
-
-#site-header-mobile {
-    display: none;
 }
 
 .navbar-brand {
