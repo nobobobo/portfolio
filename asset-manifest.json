@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/portfolio/static/js/main.10a1b4a7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.10a1b4a7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8817292c.chunk.css",
+    "main.js": "/portfolio/static/js/main.c359d9f2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c359d9f2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.4c736102.chunk.js": "/portfolio/static/js/2.4c736102.chunk.js",
-    "static/js/2.4c736102.chunk.js.map": "/portfolio/static/js/2.4c736102.chunk.js.map",
+    "static/js/2.83153907.chunk.js": "/portfolio/static/js/2.83153907.chunk.js",
+    "static/js/2.83153907.chunk.js.map": "/portfolio/static/js/2.83153907.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0da11d69fbca1a6be6b699b2717e1562.js": "/portfolio/precache-manifest.0da11d69fbca1a6be6b699b2717e1562.js",
+    "precache-manifest.cfc5b4cab5f81881bc0cb99617608670.js": "/portfolio/precache-manifest.cfc5b4cab5f81881bc0cb99617608670.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/portfolio/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4c736102.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4c736102.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg"
+    "static/css/main.8817292c.chunk.css.map": "/portfolio/static/css/main.8817292c.chunk.css.map",
+    "static/js/2.83153907.chunk.js.LICENSE.txt": "/portfolio/static/js/2.83153907.chunk.js.LICENSE.txt",
+    "static/media/burger.jpg": "/portfolio/static/media/burger.a110bc51.jpg",
+    "static/media/dr.png": "/portfolio/static/media/dr.1edfef99.png",
+    "static/media/etm.png": "/portfolio/static/media/etm.143f53e1.png",
+    "static/media/noboru.jpg": "/portfolio/static/media/noboru.9ab9312e.jpg",
+    "static/media/pass.png": "/portfolio/static/media/pass.028a5026.png",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.ba0c56fb.png",
+    "static/media/sch.png": "/portfolio/static/media/sch.b3e0c1d8.png",
+    "static/media/watcher.png": "/portfolio/static/media/watcher.558fe28c.png",
+    "static/media/wd.png": "/portfolio/static/media/wd.737822f9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.4c736102.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.10a1b4a7.chunk.js"
+    "static/js/2.83153907.chunk.js",
+    "static/css/main.8817292c.chunk.css",
+    "static/js/main.c359d9f2.chunk.js"
   ]
 }
