@@ -12,8 +12,9 @@ h1 {
 }
 
 #home {
-    
-    background: linear-gradient(346deg, #B1740F, #ffd07b, #fdb833,#296eb4, #1789fc);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: linear-gradient(346deg, #B1740F, #ffd07b, #fdb833, #296eb4, #1789fc);
     background-size: 1000%, 1000%;
     animation: background 30s ease infinite;
 }

@@ -15,36 +15,11 @@ img {
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
 }
 
-#home {
-  padding-top: 300px;
-  padding-bottom: 300px;
-}
-
-#works {
-  background-color: #f3eff5;
-  padding-top: 25px;
-  padding-bottom: 50px;
-}
-
-#profile {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#img-div img {
-  border-radius: 50%;
-}
 
 #contact {
   background-color: #f3eff5;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.project_thumb {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 /* coolors: https://coolors.co/ffadad-ffd6a5-fdffb6-caffbf-9bf6ff-a0c4ff-bdb2ff-ffc6ff-fffffc */

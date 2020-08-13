@@ -22,10 +22,10 @@ function MyModal(props) {
                 <p>{desc}</p>
 
                 {link ? <p>
-                    <a href={link} target="_blank" rel="noopener noreferrer" >Application Page</a>
+                    <a className="modal-anchor" href={link} target="_blank" rel="noopener noreferrer" >Application Page</a>
                 </p> : null}
                 {github ? <p>
-                    <a href={github} target="_blank" rel="noopener noreferrer">
+                    <a className="modal-anchor" href={github} target="_blank" rel="noopener noreferrer">
                         GitHub Repo</a>
                 </p> : null}
             </Modal.Body>
