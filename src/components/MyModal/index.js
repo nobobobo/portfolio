@@ -1,9 +1,17 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
+function importAll(r) {
+    let images = {};
+    r.keys().map(item => images[item.replace('./', '')] = r(item));
+    return images;
+}
+
+const images = importAll(require.context('../../img/', false, /\.*/));
+
 
 function MyModal(props) {
-    const { gif, title, desc, link, github } = props;
+    const { img, gif, title, desc, link, github } = props;
 
     return (
         <Modal
@@ -12,16 +20,14 @@ function MyModal(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
-            <Modal.Header closeButton>
-                <Modal.Title className="modal-title">
-
-                </Modal.Title>
-            </Modal.Header>
             <Modal.Body>
                 <h4>{title}</h4>
                 <p>{desc}</p>
                 <div className="container">
-                    {gif ? <img src={gif} alt={"gif of: "+title}/> : null}
+                    <div className="row">
+                    {gif ? <img className="mx-auto" src={images[gif]} alt={"gif of: " + title} /> : null}
+                    </div>
+                    
                     <div className="row">
                         {link ? <p className="col-sm text-center">
                             <a className="modal-anchor" href={link} target="_blank" rel="noopener noreferrer" >Application Page</a>

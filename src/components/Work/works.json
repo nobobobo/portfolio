@@ -1,8 +1,8 @@
 {
     "fs": [
         {
-            "title": "Watcher: Neighborhood Watching App",
-            "desc":"This is a full-stack neighborhood watch application built with MySQL Database and Express Server.",
+            "title": "Watcher",
+            "desc":"A full-stack neighborhood watch application built with MySQL Database and Express Server. Users can post their messages with their geolocation, and browse reports which are sorted by distances from the user's device.",
             "link":"https://quiet-shelf-40896.herokuapp.com/",
             "github": "https://github.com/nobobobo/watcher",
             "img": "watcher.png",
@@ -14,7 +14,7 @@
             "link":"https://mysterious-stream-88582.herokuapp.com/",
             "github": "https://github.com/nobobobo/Eat-Da-Burger",
             "img": "burger.jpg",
-            "gif":""
+            "gif":"burger.gif"
         },
         {
             "title": "European Translation Map",
@@ -22,7 +22,7 @@
             "link":"https://progharrison234.github.io/european-translation-map/",
             "github": "https://github.com/ProgHarrison234/european-translation-map",
             "img": "etm.png",
-            "gif":""
+            "gif":"etm.gif"
         },
         {
             "title": "Work Day Scheduler",

@@ -26,7 +26,7 @@ p {
 }
 
 #pj1:hover #overlay1 {
-    opacity: 85%;
+    opacity: .85;
 }
 
 #overlay2 {
@@ -44,7 +44,7 @@ p {
 }
 
 #pj2:hover #overlay2 {
-    opacity: 85%;
+    opacity: .85;
 }
 
 #overlay3 {
@@ -62,7 +62,7 @@ p {
 }
 
 #pj3:hover #overlay3 {
-    opacity: 85%;
+    opacity: .85;
 }
 
 #overlay4 {
@@ -80,7 +80,7 @@ p {
 }
 
 #pj4:hover #overlay4 {
-    opacity: 85%;
+    opacity: .85;
 }
 
 #overlay5 {
@@ -98,7 +98,7 @@ p {
 }
 
 #pj5:hover #overlay5 {
-    opacity: 85%;
+    opacity: .85;
 }
 
 #overlay6 {
@@ -116,7 +116,7 @@ p {
 }
 
 #pj6:hover #overlay6 {
-    opacity: 85%;
+    opacity: .85;
 }
 
 .text {
