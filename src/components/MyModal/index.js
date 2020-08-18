@@ -3,7 +3,7 @@ import { Modal, Button } from 'react-bootstrap';
 
 
 function MyModal(props) {
-    const { id, img, title, desc, link, github } = props;
+    const { gif, title, desc, link, github } = props;
 
     return (
         <Modal
@@ -20,14 +20,20 @@ function MyModal(props) {
             <Modal.Body>
                 <h4>{title}</h4>
                 <p>{desc}</p>
+                <div className="container">
+                    {gif ? <img src={gif} alt={"gif of: "+title}/> : null}
+                    <div className="row">
+                        {link ? <p className="col-sm text-center">
+                            <a className="modal-anchor" href={link} target="_blank" rel="noopener noreferrer" >Application Page</a>
+                        </p> : null}
+                        {github ? <p className="col-sm text-center">
+                            <a className="modal-anchor" href={github} target="_blank" rel="noopener noreferrer">
+                                GitHub Repo</a>
+                        </p> : null}
+                    </div>
+                </div>
 
-                {link ? <p>
-                    <a className="modal-anchor" href={link} target="_blank" rel="noopener noreferrer" >Application Page</a>
-                </p> : null}
-                {github ? <p>
-                    <a className="modal-anchor" href={github} target="_blank" rel="noopener noreferrer">
-                        GitHub Repo</a>
-                </p> : null}
+
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Close</Button>

@@ -2,54 +2,61 @@
     "fs": [
         {
             "title": "Watcher: Neighborhood Watching App",
-            "desc":"",
+            "desc":"This is a full-stack neighborhood watch application built with MySQL Database and Express Server.",
             "link":"https://quiet-shelf-40896.herokuapp.com/",
             "github": "https://github.com/nobobobo/watcher",
-            "img": "watcher.png"
+            "img": "watcher.png",
+            "gif":""
         },
         {
             "title": "Eat Da Burger!",
-            "desc":"",
+            "desc":"This Web Application uses MySQL database and Express server as Backend, and allows users to add burgers they want to devour.",
             "link":"https://mysterious-stream-88582.herokuapp.com/",
             "github": "https://github.com/nobobobo/Eat-Da-Burger",
-            "img": "burger.jpg"
+            "img": "burger.jpg",
+            "gif":""
         },
         {
             "title": "European Translation Map",
-            "desc":"",
+            "desc":"This web application provides travelers and language enthusiasts alike a tool that translates words from english into several European languages and displays the translations according to their geographic location.",
             "link":"https://progharrison234.github.io/european-translation-map/",
             "github": "https://github.com/ProgHarrison234/european-translation-map",
-            "img": "etm.png"
+            "img": "etm.png",
+            "gif":""
         },
         {
             "title": "Work Day Scheduler",
-            "desc":"",
+            "desc":"A scheduler built with Javascript, stores and displays time shcedule for business hours of the current day",
             "link":"https://nobobobo.github.io/work-day-scheduler",
             "github": "https://github.com/nobobobo/work-day-scheduler",
-            "img": "sch.png"
+            "img": "sch.png",
+            "gif":""
         },
         {
             "title": "Weather Dashboard",
-            "desc": "",
+            "desc": "A web application shows the current weather and 5-day forecast of the user-chosen cities ",
             "link":"https://nobobobo.github.io/weather-dashboard/",
             "github": "https://github.com/nobobobo/weather-dashboard",
-            "img": "wd.png"
+            "img": "wd.png",
+            "gif":""
         },
         {
             "title": "Password Generator",
-            "desc": "",
+            "desc": "A Javascript application generates a random password based on user-selected critea",
             "link":"https://nobobobo.github.io/password-generator/",
             "github": "https://github.com/nobobobo/password-generator",
-            "img": "pass.png"
+            "img": "pass.png",
+            "gif":""
         }
     ],
     "ml": [
         {
             "title": "Machine Learning Hands On",
-            "desc": "",
+            "desc": "Github Repository for ML&DL notebook files",
             "link":"",
             "github": "https://github.com/nobobobo/ml-handson",
-            "img": "dr.png"
+            "img": "dr.png",
+            "gif":""
         }
     ], 
     "ot":[
