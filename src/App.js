@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Work from './components/Work';
 import Profile from './components/Profile';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function getWindowSize() {
   const { innerWidth, innerHeight } = window;
@@ -31,6 +32,7 @@ function App() {
       <Work />
       <Profile />
       <Contact />
+      <Footer />
     </div>
   );
 }
