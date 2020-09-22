@@ -13,13 +13,12 @@ function Profile() {
                     <div className="col-sm-12 col-md-9 my-3">
                         <h3> About Me </h3>
                         <p className="mx-1 mb-1">
-                            Hi, I'm Nobo. Currently I am a Seattle-based Cloud Support Engineer.
-                            I'm passionate about Machine Learning technology and Web Development.
+                            Hi, I'm Nobo. Currently I am a Seattle-based Business Intelligence Engineer.
+                            I'm passionate about Data Science, Machine Learning and Web Development.
                     </p>
                     <br />
                         <p className="mx-1 mb-1">
-                            Currently enrolled in University of Washington Coding Bootcamp learning full stack web
-                            development.
+                            Having experience in Amazon Web Services technologies and full stack web development.
                             I'm also a part-time student at Johns Hopkins University pursuing my M.S. degree in Data Science.
                     </p>
                     <br />
